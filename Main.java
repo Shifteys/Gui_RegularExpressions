@@ -15,7 +15,7 @@ public class Main {
                 "(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\." +
                 "(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])$");
 
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/ipv4check.txt"))){
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/ipv4check.txt"))){//You must have to change fileName depending on your folders alignment - mine was in folder src.
             String line;
             System.out.println("correct ipv4s: ");
             while ((line = bufferedReader.readLine()) !=null){
