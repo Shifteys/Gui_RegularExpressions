@@ -1,5 +1,5 @@
 Task desc. :
-Write a simple Java snippet that checks if a given string contains the word "cat".
+Write a regular expression that finds any integer (a sequence of digits) in the string that does not start with zero.
 
-You can use either String.matches() or Matcher.find().
-Make sure it is sufficient for "cat" to appear anywhere in the text (not necessarily as a separate word).
+Use Matcher.find() in a loop to print out all matches in the text.
+For example, in the text 0123 123 0456 999, it should output 123 and 999, skipping 0123 and 0456.
